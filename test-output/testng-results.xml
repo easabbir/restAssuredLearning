@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-27T23:34:40 BDT" name="Suite" finished-at="2021-02-27T23:34:42 BDT" duration-ms="1510">
+    <groups>
+    </groups>
+    <test started-at="2021-02-27T23:34:40 BDT" name="Test" finished-at="2021-02-27T23:34:42 BDT" duration-ms="1510">
+      <class name="restAssuredTestPractice.DataDrivenExample1">
+        <test-method signature="test_2_post(java.lang.String, java.lang.String, int)[pri:0, instance:restAssuredTestPractice.DataDrivenExample1@2525ff7e]" started-at="2021-02-27T23:34:40 BDT" name="test_2_post" data-provider="DataForPost2" finished-at="2021-02-27T23:34:41 BDT" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Graham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2_post -->
+        <test-method signature="test_2_post(java.lang.String, java.lang.String, int)[pri:0, instance:restAssuredTestPractice.DataDrivenExample1@2525ff7e]" started-at="2021-02-27T23:34:41 BDT" name="test_2_post" data-provider="DataForPost2" finished-at="2021-02-27T23:34:41 BDT" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ford]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2_post -->
+        <test-method signature="test_5_delete(int)[pri:0, instance:restAssuredTestPractice.DataDrivenExample1@2525ff7e]" started-at="2021-02-27T23:34:41 BDT" name="test_5_delete" data-provider="DeleteData" finished-at="2021-02-27T23:34:41 BDT" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_5_delete -->
+        <test-method signature="test_5_delete(int)[pri:0, instance:restAssuredTestPractice.DataDrivenExample1@2525ff7e]" started-at="2021-02-27T23:34:41 BDT" name="test_5_delete" data-provider="DeleteData" finished-at="2021-02-27T23:34:41 BDT" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_5_delete -->
+        <test-method signature="test_5_delete2(int)[pri:0, instance:restAssuredTestPractice.DataDrivenExample1@2525ff7e]" started-at="2021-02-27T23:34:41 BDT" name="test_5_delete2" finished-at="2021-02-27T23:34:42 BDT" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_5_delete2 -->
+      </class> <!-- restAssuredTestPractice.DataDrivenExample1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
